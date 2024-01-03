@@ -10608,7 +10608,7 @@ body::-webkit-scrollbar {
 .call-link {
   width: fit-content;
   border-radius: 10px;
-  background-color: #FFA200;
+  background-color: #ffa200;
   padding: 15px 30px;
   font-size: 18px;
   font-weight: 600;
@@ -10618,7 +10618,7 @@ body::-webkit-scrollbar {
 }
 
 .call-link:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 /* CUSTOM BANNER */
@@ -10629,7 +10629,7 @@ body::-webkit-scrollbar {
 
 .custom-banner h1 {
   font-size: 65px;
-  color: #FFF;
+  color: #fff;
   letter-spacing: -0.5px;
   line-height: 80px;
   text-transform: uppercase;
@@ -10702,7 +10702,59 @@ body::-webkit-scrollbar {
 }
 
 .custom-header .navigation .links a:hover {
-  color: #FFA200;
+  color: #ffa200;
+}
+
+.footer-column .logo {
+  width: fit-content;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.footer-column .logo img {
+  height: 80px;
+  width: auto;
+}
+
+.cta-form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cta-form .form-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.cta-form .form-control {
+  font-weight: 500;
+  color: #000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.submit-btn {
+  background-color: #ffa200;
+  font-family: "Inter", sans-serif;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 @media (max-width: 575px) {
@@ -10733,7 +10785,7 @@ body::-webkit-scrollbar {
     padding: 50px 0px;
   }
 
-  .services-one .cust-top  {
+  .services-one .cust-top {
     padding: 50px 0px;
   }
 
